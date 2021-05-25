@@ -14,10 +14,10 @@ import os
 def refresh_list():
 
     mydb = mysql.connector.connect(
-      host="34.72.81.26",
-      user="root",
-      password="OurcollegeisIIITKota@MNIT302017",
-      database="python_project"
+      host="*****",
+      user="****",
+      password="*************",
+      database="*******"
     )
 
     mycursor = mydb.cursor()
@@ -86,8 +86,8 @@ def Text_to_speech():
 
 def telegram_bot_sendtext(bot_message):
 
-    bot_token = '1476223715:AAF_o6OTAIaI9VVhXl9GdzpCCnlrZQAZzbs'
-    bot_chatID = '-356248635'  #<-Group    #'984328362' (<- Personal)
+    bot_token = '*******************'
+    bot_chatID = '************' 
     send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
 
     response = requests.get(send_text)
