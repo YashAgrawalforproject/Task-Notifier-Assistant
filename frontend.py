@@ -150,10 +150,10 @@ class PageOne(tk.Frame):
 
         def submit():
             mydb = mysql.connector.connect(
-              host="34.72.81.26",
+              host="********",
               user="root",
-              password="OurcollegeisIIITKota@MNIT302017",
-              database="python_project"
+              password="*************",
+              database="*************"
             )
 
 
@@ -195,10 +195,10 @@ class PageTwo(tk.Frame):
         def refresh_list():
 
             mydb = mysql.connector.connect(
-              host="34.72.81.26",
+              host="*********",
               user="root",
-              password="OurcollegeisIIITKota@MNIT302017",
-              database="python_project"
+              password="*********",
+              database="**************"
             )
 
             mycursor = mydb.cursor()
