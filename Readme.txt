@@ -20,9 +20,9 @@ Our python backend file is running on a Heroku server, so it will run always. No
 ______________ Group 1 - CSE _____________________
 
 
+Yash Agrawal (2019KUCP1027 )
 Shubham Khandelwal ( 2019KUCP1008 )
 Piyush Gupta ( 2019KUCP1024 )
-Yash Agrawal (2019KUCP1027 )
 Aman Jain ( 2019KUCP1122 )
 
 
